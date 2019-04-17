@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,600,700');
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.container {
+    /* background-image: url("../img/programming.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #333;
+    
+}
+.container h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.container h1 span {
+    display: inline-flex;
+    color: #a1ff34;
+}
+.container h1 span:nth-child(even) {
+    overflow: hidden;
+    color: #fff;
+    transition: ease-in-out .5s;
+    /* border-bottom: 8px solid #a1ff34; */
+    letter-spacing: -1em;
+}
+.container h1:hover span:nth-child(even) {
+    letter-spacing: 0;
+}
+.container h1:hover span:nth-child(2) {
+    transition-delay: 0;
+}
+.container h1:hover span:nth-child(4) {
+    transition-delay: 0.5s;
+}
+.container h1:hover span:nth-child(6) {
+    transition-delay: 1s;
+}
+.container h1:hover span:nth-child(8) {
+    transition-delay: 1.5s;
+}
