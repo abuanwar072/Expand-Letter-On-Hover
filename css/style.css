@@ -32,7 +32,7 @@ body {
     overflow: hidden;
     color: #fff;
     transition: ease-in-out .5s;
-    /* border-bottom: 8px solid #a1ff34; */
+    border-bottom: 1px solid #a1ff34;
     letter-spacing: -1em;
 }
 .container h1:hover span:nth-child(even) {
